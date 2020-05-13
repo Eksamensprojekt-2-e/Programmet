@@ -1,7 +1,18 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" UseMySettingsClassName="true">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="LærerBruger" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gary</Value>
+    </Setting>
+    <Setting Name="LærerPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">69</Value>
+    </Setting>
+    <Setting Name="ElevBruger" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cto69h3</Value>
+    </Setting>
+    <Setting Name="ElevPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">nwq420htc</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
