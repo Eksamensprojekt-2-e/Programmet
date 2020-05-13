@@ -98,6 +98,7 @@ Partial Class login
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(217, 30)
         Me.TextBox2.TabIndex = 3
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox1
         '
@@ -108,6 +109,7 @@ Partial Class login
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(217, 30)
         Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
