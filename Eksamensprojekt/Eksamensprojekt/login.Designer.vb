@@ -24,16 +24,16 @@ Partial Class login
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.But_Login = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TxtPassword = New System.Windows.Forms.TextBox()
+        Me.TxtBrugernavn = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -45,11 +45,11 @@ Partial Class login
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.Window
         Me.GroupBox1.Controls.Add(Me.Panel2)
         Me.GroupBox1.Controls.Add(Me.Panel1)
-        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.But_Login)
         Me.GroupBox1.Controls.Add(Me.PictureBox3)
         Me.GroupBox1.Controls.Add(Me.PictureBox2)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.TxtPassword)
+        Me.GroupBox1.Controls.Add(Me.TxtBrugernavn)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(186, 265)
@@ -59,14 +59,30 @@ Partial Class login
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Uni-login (HTX)"
         '
-        'Button1
+        'Panel2
         '
-        Me.Button1.Location = New System.Drawing.Point(264, 140)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Panel2.BackColor = System.Drawing.SystemColors.InfoText
+        Me.Panel2.Location = New System.Drawing.Point(139, 124)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(200, 1)
+        Me.Panel2.TabIndex = 8
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.SystemColors.InfoText
+        Me.Panel1.Location = New System.Drawing.Point(139, 91)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(200, 1)
+        Me.Panel1.TabIndex = 7
+        '
+        'But_Login
+        '
+        Me.But_Login.Location = New System.Drawing.Point(264, 140)
+        Me.But_Login.Name = "But_Login"
+        Me.But_Login.Size = New System.Drawing.Size(75, 23)
+        Me.But_Login.TabIndex = 6
+        Me.But_Login.Text = "Login"
+        Me.But_Login.UseVisualStyleBackColor = True
         '
         'PictureBox3
         '
@@ -88,28 +104,28 @@ Partial Class login
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
         '
-        'TextBox2
+        'TxtPassword
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Location = New System.Drawing.Point(139, 95)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(217, 30)
-        Me.TextBox2.TabIndex = 3
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TxtPassword.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TxtPassword.Location = New System.Drawing.Point(139, 95)
+        Me.TxtPassword.Multiline = True
+        Me.TxtPassword.Name = "TxtPassword"
+        Me.TxtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TxtPassword.Size = New System.Drawing.Size(217, 30)
+        Me.TxtPassword.TabIndex = 3
+        Me.TxtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox1
+        'TxtBrugernavn
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(139, 62)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(217, 30)
-        Me.TextBox1.TabIndex = 2
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TxtBrugernavn.BackColor = System.Drawing.SystemColors.Window
+        Me.TxtBrugernavn.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TxtBrugernavn.Location = New System.Drawing.Point(139, 62)
+        Me.TxtBrugernavn.Multiline = True
+        Me.TxtBrugernavn.Name = "TxtBrugernavn"
+        Me.TxtBrugernavn.Size = New System.Drawing.Size(217, 30)
+        Me.TxtBrugernavn.TabIndex = 2
+        Me.TxtBrugernavn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -141,22 +157,6 @@ Partial Class login
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.InfoText
-        Me.Panel1.Location = New System.Drawing.Point(139, 91)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 1)
-        Me.Panel1.TabIndex = 7
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.InfoText
-        Me.Panel2.Location = New System.Drawing.Point(139, 124)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(200, 1)
-        Me.Panel2.TabIndex = 8
-        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -180,11 +180,11 @@ Partial Class login
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TxtPassword As TextBox
+    Friend WithEvents TxtBrugernavn As TextBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents But_Login As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel1 As Panel
 End Class
